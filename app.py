@@ -88,7 +88,7 @@ if app_mode == "About App":
     st.markdown("""
         # About Me 👤
 
-        Welcome to my Streamlit application! This project is part of a course on building computer vision UIs using Streamlit. I am passionate about **machine learning** and **computer vision**, and this project showcases the **MediaPipe FaceMesh** solution integrated with **OpenCV**.
+        Welcome to my Streamlit application! This project is part of a task on building computer vision UIs using Streamlit. I am passionate about **machine learning** and **computer vision**, and this project showcases the **MediaPipe FaceMesh** solution integrated with **OpenCV**.
 
         ## Project Overview 📑
         This app allows users to:
@@ -102,7 +102,7 @@ if app_mode == "About App":
         - **MediaPipe**: For facial landmark detection
 
         ## Contact Me 📬
-        Connect with me on [LinkedIn](https://www.linkedin.com) or view my projects on [GitHub](https://www.github.com).
+        Connect with me on [LinkedIn](https://www.linkedin.com/in/saumya-tiwari-2b3170206/) or view my projects on [GitHub](https://github.com/Saumya-tiwari-24/).
 
         Enjoy exploring! 🎉
         """)
@@ -268,7 +268,7 @@ else:
             stframe.image(frame, channels = 'BGR', use_column_width=True)
     
     st.text('Video Processed')
-    output_video  = open('output1.mp4','rb')
+    output_video  = open('output.mp4','rb')
     out_bytes = output_video.read()
     st.video(out_bytes)
     
